@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8422" started-at="2019-06-08T15:12:42Z" finished-at="2019-06-08T15:12:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8422" started-at="2019-06-08T15:12:42Z" finished-at="2019-06-08T15:12:50Z">
+      <class name="ValidateCreateCustomerAPI">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ValidateCreateCustomerAPI@7fc229ab]" name="setUp" is-config="true" duration-ms="817" started-at="2019-06-08T20:42:41Z" finished-at="2019-06-08T20:42:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ValidateCreateCustomerAPI@7fc229ab]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-06-08T20:42:42Z" finished-at="2019-06-08T20:42:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ValidateCreateCustomerAPI@7fc229ab]" name="beforeClass" is-config="true" duration-ms="6" started-at="2019-06-08T20:42:42Z" finished-at="2019-06-08T20:42:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ValidateCreateCustomerAPI@7fc229ab]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2019-06-08T20:42:42Z" finished-at="2019-06-08T20:42:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ValidateCreateCustomerAPI.validateAPIWIthValidSecretKey(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateAPIWIthValidSecretKey(java.util.Hashtable)[pri:0, instance:ValidateCreateCustomerAPI@7fc229ab]" name="validateAPIWIthValidSecretKey" duration-ms="5618" started-at="2019-06-08T20:42:42Z" data-provider="data" finished-at="2019-06-08T20:42:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=email@gmail.com, description=Test User has been created}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAPIWIthValidSecretKey -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ValidateCreateCustomerAPI@7fc229ab]" name="afterMethod" is-config="true" duration-ms="579" started-at="2019-06-08T20:42:48Z" finished-at="2019-06-08T20:42:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateAPIWIthValidSecretKey status=SUCCESS method=ValidateCreateCustomerAPI.validateAPIWIthValidSecretKey(java.util.Hashtable)[pri:0, instance:ValidateCreateCustomerAPI@7fc229ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ValidateCreateCustomerAPI@7fc229ab]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-06-08T20:42:48Z" finished-at="2019-06-08T20:42:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ValidateCreateCustomerAPI.validateAPIWIthValidSecretKey(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateAPIWIthValidSecretKey(java.util.Hashtable)[pri:0, instance:ValidateCreateCustomerAPI@7fc229ab]" name="validateAPIWIthValidSecretKey" duration-ms="2055" started-at="2019-06-08T20:42:48Z" data-provider="data" finished-at="2019-06-08T20:42:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=email1@gmail.com, description=Test User has been created}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAPIWIthValidSecretKey -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ValidateCreateCustomerAPI@7fc229ab]" name="afterMethod" is-config="true" duration-ms="131" started-at="2019-06-08T20:42:50Z" finished-at="2019-06-08T20:42:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateAPIWIthValidSecretKey status=SUCCESS method=ValidateCreateCustomerAPI.validateAPIWIthValidSecretKey(java.util.Hashtable)[pri:0, instance:ValidateCreateCustomerAPI@7fc229ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:ValidateCreateCustomerAPI@7fc229ab]" name="AfterClass" is-config="true" duration-ms="0" started-at="2019-06-08T20:42:50Z" finished-at="2019-06-08T20:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:ValidateCreateCustomerAPI@7fc229ab]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-06-08T20:42:50Z" finished-at="2019-06-08T20:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ValidateCreateCustomerAPI@7fc229ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-06-08T20:42:50Z" finished-at="2019-06-08T20:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ValidateCreateCustomerAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

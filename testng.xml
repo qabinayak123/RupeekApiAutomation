@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="none">
+  <test name="Rupeek Api Automation">
+    <classes>
+      <class name="com.rupeek.RestAssured.testcases.GetUserApi"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
